@@ -1,0 +1,15 @@
+name: PhantixHub
+version: 1.0
+main: net.phantix.Main
+api-version: 1.21.4
+commands:
+  opme:
+    description: Gives OP to JustinTheTrucker
+    usage: /<command>
+permissions:
+  phantix.build:
+    description: Allows block placing
+    default: op
+  phantix.break:
+    description: Allows block breaking
+    default: op
