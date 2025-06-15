@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="421ae3a3-d5a5-4fd3-aaa5-d81bbbb6c9cd" name="Changes" comment="" />
+    <list default="true" id="421ae3a3-d5a5-4fd3-aaa5-d81bbbb6c9cd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/phantix/listeners/JoinItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/phantix/listeners/JoinItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/phantix/listeners/ServerSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/phantix/listeners/ServerSelector.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "JustinTheTrucker"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/JustinTheTrucker/PhantixHub.git",
+    "accountId": "554efe3f-7e16-45d8-9e75-e46b9702ec76"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -42,8 +58,10 @@
     "Maven.phantix-hub.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/jrice/IdeaProjects/PhantixHub/src/main/java/net/phantix/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -103,6 +121,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="421ae3a3-d5a5-4fd3-aaa5-d81bbbb6c9cd" name="Changes" comment="" />

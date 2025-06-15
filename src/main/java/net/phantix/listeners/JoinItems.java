@@ -1,6 +1,8 @@
 package net.phantix.listeners;
 
+import org.bukkit.Location;
 import org.bukkit.Material;
+import org.bukkit.World;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -15,6 +17,11 @@ public class JoinItems implements Listener {
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
         Player player = event.getPlayer();
+
+        // Teleport player to spawn location (0.5, 66, 0.5)
+        World world = player.getWorld();
+        Location spawnLocation = new Location(world, 0.5, 66, 0.5, 180.0f, 1.0f);
+        player.teleport(spawnLocation);
 
         player.getInventory().clear();
 
