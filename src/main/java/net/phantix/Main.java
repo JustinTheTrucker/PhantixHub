@@ -17,9 +17,13 @@ public class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new VoidTeleport(), this);
         getServer().getPluginManager().registerEvents(new SilentJoinQuit(), this);
         getServer().getPluginManager().registerEvents(new DisableHunger(), this);
-        getServer().getPluginManager().registerEvents(new DisableDamage(), this);
+        PvPMode pvpMode = new PvPMode(this);
+        getServer().getPluginManager().registerEvents(pvpMode, this);
+        getServer().getPluginManager().registerEvents(new DisableDamage(pvpMode), this);
         getServer().getPluginManager().registerEvents(new ServerSelector(this), this);
         getServer().getPluginManager().registerEvents(new TabListManager(), this);
+        getServer().getPluginManager().registerEvents(new TeleportBow(), this);
+
 
         this.getCommand("opme").setExecutor(new OpMe());
 

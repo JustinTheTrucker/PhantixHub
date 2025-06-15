@@ -25,6 +25,11 @@ public class JoinItems implements Listener {
 
         player.getInventory().clear();
 
+        player.getInventory().setItem(0, TeleportBow.createTeleportBow());
+
+        player.getInventory().setItem(1, PvPMode.createPvPSword());
+
+
         ItemStack compass = new ItemStack(Material.COMPASS);
         ItemMeta compassMeta = compass.getItemMeta();
         if (compassMeta != null) {
@@ -44,5 +49,8 @@ public class JoinItems implements Listener {
             hider.setItemMeta(hiderMeta);
         }
         player.getInventory().setItem(8, hider);
+
+        player.getInventory().setItem(9, new ItemStack(Material.ARROW, 1));
+
     }
 }
